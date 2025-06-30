@@ -1,0 +1,7 @@
+.container {
+  max-width: 900px;
+}
+
+th, td {
+  vertical-align: middle;
+}
