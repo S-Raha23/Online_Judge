@@ -15,4 +15,4 @@ services:
     volumes:
       - ./server/temp:/app/temp
     environment:
-      - MONGODB_URL=mongodb+srv://soubhagyaraha2:z1voEwvjBiCsBtVS@cluster0.h7domly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - MONGODB_URL=${MONGODB_URL}
